@@ -1,0 +1,45 @@
+column,dtype,missing_count,missing_pct,unique_count,sample_value
+unique_key,int64,0,0.0,20000,71165578
+created_date,object,0,0.0,15992,2026-11-18T02:06:05.000
+closed_date,object,10285,51.42,6198,2026-11-18T01:58:50.000
+agency,object,0,0.0,13,DOHMH
+agency_name,object,0,0.0,13,Department of Health and Mental Hygiene
+complaint_type,object,0,0.0,139,Smoking or Vaping
+descriptor,object,340,1.7,488,Allowed in Smoke Free Area
+descriptor_2,object,10820,54.1,349,Tobacco or Hookah Smoking or Vaping
+location_type,object,1650,8.25,75,Residential Building
+incident_zip,float64,178,0.89,195,11377.0
+incident_address,object,525,2.62,12102,47-22 45 STREET
+street_name,object,525,2.62,3371,45 STREET
+cross_street_1,object,8186,40.93,2783,47 AVENUE
+cross_street_2,object,8172,40.86,2812,48 AVENUE
+intersection_street_1,object,8154,40.77,2653,47 AVENUE
+intersection_street_2,object,8137,40.69,2707,48 AVENUE
+address_type,object,121,0.6,5,ADDRESS
+city,object,1034,5.17,49,WOODSIDE
+landmark,object,9381,46.91,2498,45 STREET
+facility_type,object,19978,99.89,1,DSNY Garage
+status,object,0,0.0,6,In Progress
+due_date,object,19945,99.72,41,2026-12-17T22:22:58.000
+resolution_description,object,3489,17.45,198,The Department of Transportation referred this com
+resolution_action_updated_date,object,3366,16.83,6512,2026-11-18T01:58:20.000
+community_board,object,0,0.0,74,02 QUEENS
+council_district,float64,429,2.15,51,26.0
+police_precinct,object,0,0.0,78,Precinct 108
+bbl,float64,1917,9.59,10609,4001710042.0
+borough,object,0,0.0,6,QUEENS
+x_coordinate_state_plane,float64,346,1.73,11117,1006377.0
+y_coordinate_state_plane,float64,345,1.73,11628,209142.0
+open_data_channel_type,object,0,0.0,4,ONLINE
+park_facility_name,object,11,0.06,1,Unspecified
+park_borough,object,0,0.0,6,QUEENS
+vehicle_type,object,19204,96.02,6,Other
+taxi_company_borough,object,19987,99.94,3,BRONX
+taxi_pick_up_location,object,19811,99.06,151,"2271 ADAM CLAYTON POWELL JR BOULEVARD, MANHATTAN ("
+bridge_highway_name,object,19898,99.49,37,A
+bridge_highway_direction,object,19943,99.72,32,West/Brooklyn Bound
+road_ramp,object,19942,99.71,11,West Rd & Noel Rd
+bridge_highway_segment,object,19899,99.5,48,Entrance
+latitude,float64,346,1.73,12313,40.74069541697651
+longitude,float64,346,1.73,12313,-73.92015128377736
+location,object,346,1.73,12313,POINT (-73.920151283777 40.740695416977)

@@ -1,0 +1,25 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+.env/
+.venv/
+env/
+venv/
+ENV/
+
+# OS and Editor artifacts
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Large temporary prediction outputs
+outputs/reports/predictions_test.csv
+outputs/reports/sample_predictions.csv
