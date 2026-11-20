@@ -3,6 +3,7 @@
 **Student:** Ihsan Ul Haq  
 **Roll Number:** TRN-2026-000951  
 **Submission Date:** November 20, 2026  
+**GitHub Repository:** [https://github.com/Ihsanulhaq077/nyc-311-data-pipeline](https://github.com/Ihsanulhaq077/nyc-311-data-pipeline)  
 **Course Assignment:** Python Mastery Assignment 2 — Reproducible Data Pipelines, Tabular ML & Systems Exploration  
 
 ---
