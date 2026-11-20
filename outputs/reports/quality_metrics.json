@@ -1,0 +1,23 @@
+{
+  "dataset_name": "NYC 311 Service Requests",
+  "rows_before": 20000,
+  "rows_after": 20000,
+  "duplicates_removed": 0,
+  "missing_cells_before": 257056,
+  "missing_cells_after": 10986,
+  "missing_pct_before": 29.21,
+  "missing_pct_after": 3.92,
+  "validation_checks": {
+    "has_rows": true,
+    "schema_and_types_valid": true,
+    "uniqueness_valid": true,
+    "valid_latitude_range": true,
+    "valid_longitude_range": true,
+    "valid_temporal_order": true,
+    "created_date_non_null": true,
+    "complaint_type_non_null": true
+  },
+  "validation_pass_rate": 1.0,
+  "quality_gate_threshold": 0.85,
+  "quality_gate_passed": true
+}

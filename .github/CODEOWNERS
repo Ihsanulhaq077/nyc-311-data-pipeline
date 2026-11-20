@@ -1,0 +1,17 @@
+# Global code owners
+* @IhsanUlHaq
+
+# Pipeline and Data Engineering
+/src/pipeline_a.py @IhsanUlHaq
+/src/download_data.py @IhsanUlHaq
+/data/ @IhsanUlHaq
+
+# Machine Learning & Modeling
+/src/pipeline_b.py @IhsanUlHaq
+/src/predict.py @IhsanUlHaq
+/models/ @IhsanUlHaq
+
+# Infrastructure & CI
+/.github/ @IhsanUlHaq
+/tests/ @IhsanUlHaq
+

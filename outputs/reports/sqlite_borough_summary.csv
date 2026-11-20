@@ -1,0 +1,6 @@
+borough,total_requests,avg_resolution_hours,distinct_complaints,pct_with_coordinates
+Brooklyn,6600,3.69,116,98.64
+Manhattan,4363,4.35,112,98.35
+Bronx,4335,4.56,102,99.05
+Queens,4068,3.27,107,97.35
+Staten Island,606,3.03,74,98.84

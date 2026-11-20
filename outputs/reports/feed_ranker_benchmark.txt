@@ -1,0 +1,16 @@
+Feed Ranker Algorithmic Benchmark (+2 Bonus Deliverable)
+====================================================
+Ranking Formula: Score = (Likes + 1) / ((AgeHours + 2) ^ 1.5)
+Target User: User #1 (following 150 authors)
+
+Latency Comparisons (Average per Feed Request):
+1. Unindexed DB Scan: 37.902 ms
+2. Indexed DB Query:  15.499 ms (2.4x faster than unindexed)
+3. In-Memory LRU Cache: 0.0005 ms (74317.4x faster than unindexed)
+
+Sample Top 5 Ranked Feed Results for User #1:
+  1. Post #8017 by Author 1405 | Likes: 4677 | Rank Score: 1428.7207
+  2. Post #72231 by Author 1027 | Likes: 4821 | Rank Score: 1022.0208
+  3. Post #9991 by Author 1414 | Likes: 4915 | Rank Score: 1011.3818
+  4. Post #11819 by Author 638 | Likes: 4797 | Rank Score: 958.9801
+  5. Post #8188 by Author 47 | Likes: 4692 | Rank Score: 941.6125

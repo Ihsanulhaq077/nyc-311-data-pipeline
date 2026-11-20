@@ -1,0 +1,7 @@
+SQLite Feed Query Experiment Timing Summary
+-----------------------------------------
+Dataset: 80000 posts, 1500 users, 150 followed authors.
+Query: Top 20 newest posts from followed authors.
+Average Time Without Index: 33.8518 ms (0.033852 s)
+Average Time With Index:    0.6102 ms (0.000610 s)
+Performance Improvement:    55.48x speedup
