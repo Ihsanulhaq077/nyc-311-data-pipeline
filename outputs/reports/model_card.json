@@ -1,0 +1,23 @@
+{
+  "model_name": "Ridge",
+  "problem_type": "Tabular Regression",
+  "target": "resolution_hours (created_date to closed_date duration in hours)",
+  "train_set_size": 7260,
+  "test_set_size": 1816,
+  "evaluation_metrics": {
+    "model": "DummyMedian",
+    "CV_MAE_hours": 3.452,
+    "Test_MAE_hours": 1.216,
+    "Test_RMSE_hours": 1.496,
+    "Test_R2": -0.2022
+  },
+  "temporal_split_strategy": "Chronological holdout: oldest 80% train, newest 20% test",
+  "leakage_mitigation": "Target proxies (closed_date, status, resolution_action) excluded at intake",
+  "intended_use": "Educational benchmarking and civic workload pattern analysis.",
+  "out_of_scope_use": "Direct SLA enforcement, employee disciplinary evaluation, or emergency dispatch.",
+  "limitations": [
+    "Resolution times are heavily right-skewed; complex multi-agency cases under-predicted.",
+    "Historical resolution speed may reflect staffing shortages in specific boroughs rather than case difficulty.",
+    "Durations restricted to 0-180 days; extreme backlog outliers are excluded."
+  ]
+}

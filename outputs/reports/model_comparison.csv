@@ -1,0 +1,5 @@
+model,CV_MAE_hours,Test_MAE_hours,Test_RMSE_hours,Test_R2
+DummyMedian,3.452,1.216,1.496,-0.2022
+Ridge,2.88,1.243,1.987,-1.1211
+HistGradientBoosting,2.989,1.513,2.008,-1.1669
+RandomForest,2.888,1.682,2.227,-1.6634
